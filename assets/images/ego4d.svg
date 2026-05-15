@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#55f0ff"/><stop offset="1" stop-color="#b56bff"/></linearGradient></defs>
+  <rect width="800" height="450" fill="#0a132a"/><rect x="170" y="95" width="460" height="260" rx="36" fill="none" stroke="url(#a)" stroke-width="12"/><circle cx="400" cy="225" r="70" fill="url(#a)" opacity=".26"/><text x="230" y="236" fill="#ebf8ff" font-size="72" font-family="Orbitron, sans-serif">EGO4D</text>
+</svg>
