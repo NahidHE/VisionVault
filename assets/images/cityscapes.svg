@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#45cbff"/><stop offset="1" stop-color="#b96dff"/></linearGradient></defs>
+  <rect width="800" height="450" fill="#071024"/><path d="M0 360h800v90H0z" fill="#11203e"/><path d="M80 360V160h70v200m70 0V130h94v230m90 0V185h74v175m82 0V145h90v215" stroke="url(#a)" stroke-width="12" fill="none"/><text x="72" y="92" fill="#def5ff" font-size="56" font-family="Orbitron, sans-serif">CITYSCAPES</text>
+</svg>

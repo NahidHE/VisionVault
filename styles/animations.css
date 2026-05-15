@@ -1,0 +1,48 @@
+@keyframes ambientPulse {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translate3d(0, -15px, 0) scale(1.08);
+    opacity: 0.4;
+  }
+}
+
+@keyframes cardReveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes hueShift {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(18deg);
+  }
+}
+
+.ambient-gradient {
+  animation: ambientPulse 8s ease-in-out infinite;
+}
+
+.hero,
+.control-panel,
+.filters,
+.dataset-card,
+.dataset-modal__content {
+  animation: hueShift 14s ease-in-out infinite;
+}
+
+.reveal-on-scroll {
+  animation: cardReveal 420ms ease forwards;
+}

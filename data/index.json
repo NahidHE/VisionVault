@@ -1,0 +1,62 @@
+[
+  {
+    "id": "coco-2017",
+    "title": "COCO 2017",
+    "type": "Object Detection",
+    "year": 2017,
+    "tags": ["detection", "segmentation", "benchmark"],
+    "thumbnail": "assets/images/coco.svg",
+    "author": "Microsoft",
+    "short_description": "Large-scale benchmark for detection, segmentation, and captioning research."
+  },
+  {
+    "id": "imagenet-1k",
+    "title": "ImageNet 1K",
+    "type": "Classification",
+    "year": 2012,
+    "tags": ["classification", "pretraining", "benchmark"],
+    "thumbnail": "assets/images/imagenet.svg",
+    "author": "ImageNet Team",
+    "short_description": "Canonical large-scale image classification dataset powering modern representation learning."
+  },
+  {
+    "id": "cityscapes",
+    "title": "Cityscapes",
+    "type": "Segmentation",
+    "year": 2016,
+    "tags": ["autonomous driving", "urban", "segmentation"],
+    "thumbnail": "assets/images/cityscapes.svg",
+    "author": "Daimler AG + MPII",
+    "short_description": "Fine-grained street-scene annotations for semantic understanding in autonomous driving."
+  },
+  {
+    "id": "lvis-v1",
+    "title": "LVIS v1",
+    "type": "Instance Segmentation",
+    "year": 2020,
+    "tags": ["long-tail", "instance segmentation", "detection"],
+    "thumbnail": "assets/images/lvis.svg",
+    "author": "FAIR",
+    "short_description": "Long-tail object categories designed to stress-test recognition of rare classes."
+  },
+  {
+    "id": "kitti",
+    "title": "KITTI Vision Benchmark",
+    "type": "Autonomous Driving",
+    "year": 2013,
+    "tags": ["stereo", "tracking", "3d"],
+    "thumbnail": "assets/images/kitti.svg",
+    "author": "KIT + TTI",
+    "short_description": "Classic benchmark suite for 3D detection, optical flow, and autonomous driving perception."
+  },
+  {
+    "id": "ego4d",
+    "title": "Ego4D",
+    "type": "Video Understanding",
+    "year": 2022,
+    "tags": ["video", "egocentric", "multimodal"],
+    "thumbnail": "assets/images/ego4d.svg",
+    "author": "Meta AI",
+    "short_description": "Massive egocentric video collection for multimodal understanding and embodied AI."
+  }
+]
